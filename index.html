@@ -29,17 +29,17 @@
       </div>
       <!--BODY FORM-->
       <div class="row">
-        <div class="col-5">
+        <div class="col-md-5 col-xs-12">
           <label for="card"><strong>Card#</strong></label>
           <br>
           <input class="form-control" type="text" id="card" placeholder="XXXXXXXXXXXXX">
         </div>
-        <div class="col-3">
+        <div class="col-md-3 col-xs-1">
           <label for="CodigoCVC"><strong>CVC#</strong></label>
           <br>
           <input class="form-control" type="text" id="CodigoCVC" placeholder="0000">
         </div>
-        <div class="col-4">
+        <div class="col-md-4 col-xs-4">
           <label for="cash"><strong>Amount</strong></label>
           <div class="group d-flex">
             <i class="fa-solid fa-florin-sign fs-4 mt-2 pe-1"></i>
@@ -59,22 +59,22 @@
         </div>
       </div>
       <div class="row pt-3">
-        <div class="col-6">
+        <div class="col-md-6 col-xs-6">
           <label for="Ciudad"><strong>City</strong></label>
           <br>
           <input type="text" class="form-control">
         </div>
-        <div class="col-3">
+        <div class="col-md-3 col-xs-3">
           <label for="provincia"><strong>State</strong></label>
           <br>
-          <select name="provincias" id="provincia" class="form-select">
+          <select name="provincias" id="provincia" class="form-select col-sm-auto">
             <option value="provincias">Pick a state</option>
             <option value="provincias">Pontevedra</option>
             <option value="provincias">Barcelona</option>
             <option value="provincias">Madrid</option>
           </select>
         </div>
-        <div class="col-3">
+        <div class="col-md-3 col-xs-3">
           <label for="CP"><strong>Postal Code</strong></label>
           <br>
           <input type="text" id="CP" class="form-control">
@@ -83,7 +83,7 @@
       <div class="row pt-3 pb-5">
         <div class="col-6">
           <label for="pagos"><strong>We accept:</strong></label>
-          <div class="pt-3 w-50 ">
+          <div class="pt-3 w-50 col-12 col-xs-auto">
             <div class="input-group  fs-5 rounded bg-secondary py-2 gap-3">
               <input class="ms-3" type="radio" value="" aria-label="Radio button for following text input"><i
                 class="fa-brands fa-cc-mastercard"></i>
@@ -96,7 +96,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 pb-5">
+        <div class="col-6 pb-5 col-sm-auto">
           <label for="Mensaje"><strong>Message</strong></label>
           <br>
           <textarea class="form-control" name="Mensaje" id="" cols="30" rows="10" style="height:100px"></textarea>
